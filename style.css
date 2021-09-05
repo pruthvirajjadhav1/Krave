@@ -8,7 +8,7 @@
     padding: 0;
     max-width: 100vw;
     max-height: 100vh;
-    background-color: rgb(127, 197, 255);
+    background-color: #9cb4db;
   }
   
   .body {
@@ -124,7 +124,7 @@
   
   .calender {
     padding-bottom: 3rem;
-    background-color: honeydew;
+    background-color: #b5dde6;
     border-radius: 15px;
     border: rgb(78, 78, 78) solid 1px;
   }
@@ -194,7 +194,7 @@
   }
   
   .active {
-    background-color: yellow;
+    background-color: #abc7be;
   }
   
   .dateCon {
@@ -259,4 +259,24 @@
     margin: 0;
     text-transform: uppercase;
     font-weight: 900;
+  }
+
+  .button {
+    background-color: rgb(20, 125, 167); /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .button:hover {
+    background-color: #092f3b;
+    color: white;
   }

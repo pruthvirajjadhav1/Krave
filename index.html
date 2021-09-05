@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saving Plan</title>
-    <link rel="icon shortcut" href="assets/dollar.webp">
+    <title>Krave</title>
+    <link rel="icon" href="src/logo-2.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="inputScreen">
 
+    <div id="inputScreen">
         <div id="inpCon" class="inputCon">
             <p class="x" id="x1" onclick="ShowSalaryDiv()">X</p>
             <h2 style="text-align: center;">Salary & Bills</h2>
@@ -43,14 +43,13 @@
                 <select oninput="currencyCheck()" name="currency" id="currency">
                     <optgroup label="Currency">
                         <option value="0">&nbsp;</option>
-                        <option value="1">Лв</option>
                         <option value="2">€</option>
                         <option value="3">$</option>
                     </optgroup>
 
                 </select>
             </div>
-            <button type="button" id="button" onclick="ShowSalaryDiv()">input salary</button>
+            <button type="button" id="button" class="button" onclick="ShowSalaryDiv()">input salary</button>
             <div class="dateCon">
                 <h1 id="datetoday">21/05</h1>
                 <h2 id="weektoday">week: 3</h2>
@@ -112,7 +111,7 @@
 
                     </tr>
                     <tr>
-                        <th>cigarettes</th>
+                        <th>cab</th>
                         <td><input value="0" oninput="moc2()" id="moc" style="width: 105px;" type="number"></td>
                         <td><input value="0" oninput="tuc2()" id="tuc" style="width: 105px;" type="number"></td>
                         <td><input value="0" oninput="wec2()" id="wec" style="width: 105px;" type="number"></td>
@@ -122,7 +121,7 @@
                         <td><input value="0" oninput="suc2()" id="suc" style="width: 105px;" type="number"></td>
                     </tr>
                     <tr>
-                        <th>activities</th>
+                        <th>groceries</th>
                         <td><input value="0" oninput="moa2()" id="moa" style="width: 105px;" type="number"></td>
                         <td><input value="0" oninput="tua2()" id="tua" style="width: 105px;" type="number"></td>
                         <td><input value="0" oninput="wea2()" id="wea" style="width: 105px;" type="number"></td>
@@ -133,7 +132,7 @@
 
                     </tr>
                     <tr>
-                        <th>transport</th>
+                        <th>shopping</th>
                         <td><input value="0" oninput="mot2()" id="mot" style="width: 105px;" type="number"></td>
                         <td><input value="0" oninput="tut2()" id="tut" style="width: 105px;" type="number"></td>
                         <td><input value="0" oninput="wet2()" id="wet" style="width: 105px;" type="number"></td>
@@ -156,14 +155,14 @@
 
                     </tr>
                     <tr>
-                        <th style="color: rgb(45, 247, 45);">Saved</th>
-                        <td id="mosa1" style="color: rgb(45, 247, 45);">m</td>
-                        <td id="tusa1" style="color: rgb(45, 247, 45);">t</td>
-                        <td id="wesa1" style="color: rgb(45, 247, 45);">w</td>
-                        <td id="thsa1" style="color: rgb(45, 247, 45);">t</td>
-                        <td id="frsa1" style="color: rgb(45, 247, 45);">f</td>
-                        <td id="sasa1" style="color: rgb(45, 247, 45);">s</td>
-                        <td id="susa1" style="color: rgb(45, 247, 45);">s</td>
+                        <th style="color: rgb(85, 170, 0);">Saved</th>
+                        <td id="mosa1" style="color: rgb(85, 170, 0);">m</td>
+                        <td id="tusa1" style="color: rgb(85, 170, 0);">t</td>
+                        <td id="wesa1" style="color: rgb(85, 170, 0);">w</td>
+                        <td id="thsa1" style="color: rgb(85, 170, 0);">t</td>
+                        <td id="frsa1" style="color: rgb(85, 170, 0);">f</td>
+                        <td id="sasa1" style="color: rgb(85, 170, 0);">s</td>
+                        <td id="susa1" style="color: rgb(85, 170, 0);">s</td>
                     </tr>
                     <tr>
                         <th style="color: red;">Spent</th>
@@ -187,8 +186,8 @@
 
         <div class="right-con">
             <div class="next-buttons">
-                <button type="button" ondblclick="nextmonth()" title="Double Click" id="nextmonth">next month</button>
-                <button type="button" onclick="nextweek()" id="nextweek">next week</button>
+                <button type="button" ondblclick="nextmonth()" title="Double Click" id="nextmonth" class="button">next month</button>
+                <button type="button" onclick="nextweek()" id="nextweek" class="button">next week</button>
             </div>
 
             <div class="saving">
