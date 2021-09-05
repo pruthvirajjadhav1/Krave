@@ -216,8 +216,8 @@
   
   .newbutton {
     position: absolute;
-    left: 40%;
-    margin-top: -20px;
+    left: 0%;
+    margin-bottom: -20px;
     transition: 250ms;
     color: rgb(80, 80, 80);
   }
