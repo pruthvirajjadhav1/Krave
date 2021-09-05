@@ -1484,10 +1484,7 @@ function clearAll() {
 
 var select = document.getElementById("currency")
 function currencyCheck() {
-    if (select.value == 1) {
-        cur = "&nbsp;Лв"
-    }
-    else if (select.value == 2) {
+    if (select.value == 2) {
         cur = "&nbsp;€"
     }
     else if (select.value == 3) {
