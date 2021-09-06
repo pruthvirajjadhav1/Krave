@@ -186,7 +186,7 @@
   .yearSaving {
     width: 200px;
     height: 150px;
-    background-color: rgb(245, 247, 150);
+    background-color: #b5dde6;
     border-radius: 15px;
     border: black solid 2px;
     text-align: center;
@@ -198,7 +198,7 @@
   }
   
   .dateCon {
-    background-color: wheat;
+    background-color: #b5dde6;
     border: black solid 2px;
     border-radius: 15px;
     padding: 0 10px 0 10px;
