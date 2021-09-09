@@ -8,6 +8,8 @@
 - JavaScript
 - HTML
 - CSS
+## Preview: ##
+![image](https://user-images.githubusercontent.com/73253354/132666846-76ea5c05-9dab-453a-b6aa-9a71a8f90cbd.png)
 
 
 ## Link to Project ##
